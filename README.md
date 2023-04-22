@@ -61,4 +61,4 @@ danzzScraper.downloader.tiktok(url)
   <li>TextPro: danzzScraper.textpro</li>
 </ul>
 
-## Cape ngetik, cek aja fiturnya di /src/index.js
+## Cape ngetik, cek aja semua fiturnya di /src/index.js
