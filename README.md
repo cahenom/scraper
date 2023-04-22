@@ -19,28 +19,28 @@ const danzzScraper = require("@danzzcoding/scraper")
 ## Example
 ```javascript
 // Downloader
-$print = console.log
+$print = console.log;
 
-const url = "https://www.tiktok.com/xxxx"
+const tiktokUrl = "https://www.tiktok.com/"
 
-danzzScraper.downloader.tiktok(url)
+danzzScraper.downloader.tiktok(tiktokUrl)
 .then(data => {
-  let result = data
-  if (!result) throw "Data not found!"
-  $print(result)
-})
+  let result = data;
+  if (!result) throw "Data not found!";
+  $print(result);
+});
 
 // TextPro/PhotoOxy
-$print = console.log
+$print = console.log;
 
-const url = "https://textpro.me"
+const textProUrl = "https://textpro.me";
 
-danzzScrape.textpro(url)
+danzzScrape.textpro(textProUrlrl)
 .then(data => {
-  const result = data
-  if (!result) throw "Data not found!"
-  $print(result)
-})
+  const result = data;
+  if (!result) throw "Data not found!";
+  $print(result);
+});
 ```
 
 ## List features
