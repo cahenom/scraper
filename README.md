@@ -13,5 +13,20 @@ yarn add github:danzzcoding/scraper
 
 ## Import
 ```javascript
-const danzz-scraper = require("@danzzcoding/scraper")
+const danzzScraper = require("@danzzcoding/scraper")
+```
+
+## Example
+```javascript
+$print = console.log
+
+const url = "https://www.tiktok.com/xxxx"
+
+danzzScraper.tiktok(url) {
+  .then(data => {
+    let result = data
+    if (!result) throw "Data not found!"
+    $print(result)
+  })
+}
 ```
