@@ -24,7 +24,7 @@ $print = console.log
 const url = "https://www.tiktok.com/xxxx"
 
 danzzScraper.downloader.tiktok(url)
-  .then(data => {
+.then(data => {
   let result = data
   if (!result) throw "Data not found!"
   $print(result)
