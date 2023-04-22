@@ -8,7 +8,7 @@ npm install github:danzzcoding/scraper
 ```
 ### Using yarn
 ```bash
-yarn add danzzcoding/scraper
+yarn add github:danzzcoding/scraper
 ```
 
 ## Import
