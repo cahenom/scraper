@@ -22,11 +22,10 @@ $print = console.log
 
 const url = "https://www.tiktok.com/xxxx"
 
-danzzScraper.tiktok(url) {
+danzzScraper.tiktok(url)
   .then(data => {
-    let result = data
-    if (!result) throw "Data not found!"
-    $print(result)
-  })
-}
+  let result = data
+  if (!result) throw "Data not found!"
+  $print(result)
+})
 ```
