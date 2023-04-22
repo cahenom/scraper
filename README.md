@@ -45,3 +45,20 @@ danzzScraper.downloader.tiktok(url)
   <li>SfileMobi: danzzScrape.downloader.sfilemobi</li>
   <li>SoundCloud: danzzScrape.downloader.soundcloud</li>
 </ul>
+
+### Search
+<ul>
+  <li>Youtube: danzzScrape.search.youtube</li>
+</ul>
+
+### PhotoOxy
+<ul>
+  <li>PhotoOxy: danzzScrape.photooxy</li>
+</ul>
+
+### TextPro
+<ul>
+  <li>TextPro: danzzScraper.textpro</li>
+</ul>
+
+## Cape ngetik, cek aja fiturnya di /src/index.js
