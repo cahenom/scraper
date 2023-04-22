@@ -12,6 +12,6 @@ yarn add danzzcoding/scraper
 ```
 
 ## Import
-```bash
+```javascript
 const danzz-scraper = require("danzzcoding/scraper")
 ```
