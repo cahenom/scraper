@@ -20,6 +20,7 @@ const danzzScraper = require("@danzzcoding/scraper")
 ### Usage
 ```javascript
 const tiktokdl = danzzScraper.downloader.tiktok
+
 $print = console.log;
 
 const url = "https://www.tiktok.com/"
