@@ -11,12 +11,13 @@ $ npm install github:danzzcoding/scraper
 $ yarn add github:danzzcoding/scraper
 ```
 
-## Import
+## Examples code
+### Import
 ```javascript
 const danzzScraper = require("@danzzcoding/scraper")
 ```
 
-## Example
+### Usage
 ```javascript
 $print = console.log;
 
