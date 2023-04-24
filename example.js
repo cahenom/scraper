@@ -1,8 +1,7 @@
 const danzzScraper = require("@danzzcoding/scraper");
-const tiktokdl = danzzScraper.downloader.tiktok
+const tiktokdl = danzzScraper.downloader.tiktok();
+const url = "https://www.tiktok.com/";
 
 $print = console.log;
 
-const url = "https://www.tiktok.com/"
-
-tiktokdl(url).then($print)
+tiktokdl(url).then($print);
