@@ -4,7 +4,7 @@ Free scraper for WhatsApp bot or REST API
 ## Installing
 ### Using npm
 ```bash
-$ npm install @danzzcoding/scraper
+$ npm i @danzzcoding/scraper
 ```
 ### Using yarn
 ```bash
