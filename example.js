@@ -1,5 +1,6 @@
 $print = console.log
 
+// Import
 const danzzScraper = require("@danzzcoding/scraper")
 
 const q = "Danzz Coding"
