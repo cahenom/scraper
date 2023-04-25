@@ -19,12 +19,17 @@ const danzzScraper = require("@danzzcoding/scraper")
 
 ### Usage
 ```javascript
-const tiktokdl = danzzScraper.downloader.tiktok();
-const url = "https://www.tiktok.com/";
+$print = console.log
 
-$print = console.log;
+const q = "Danzz Coding"
 
-tiktokdl(url).then($print);
+if (!q) $print("Params not found!")
+danzzScraper.downloader.youtube.playaudio(q)
+.then(data => {
+  let res = data
+  if (!res) $print("Data not found!")
+  $print(data)
+})
 ```
 
 ## List features
