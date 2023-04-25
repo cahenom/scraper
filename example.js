@@ -1,7 +1,13 @@
-const danzzScraper = require("@danzzcoding/scraper");
-const tiktokdl = danzzScraper.downloader.tiktok();
-const url = "https://www.tiktok.com/";
+$print = console.log
 
-$print = console.log;
+const danzzScraper = require("@danzzcoding/scraper")
 
-tiktokdl(url).then($print);
+const q = "Danzz Coding"
+
+if (!q) $print("Params not found!")
+danzzScraper.downloader.youtube.playaudio(q)
+.then(data => {
+  let res = data
+  if (!res) $print("Data not found!")
+  $print(data)
+})
